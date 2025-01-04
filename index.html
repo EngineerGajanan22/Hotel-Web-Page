@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Dimond Stone - Luxury Redefined</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('Hotel.png.jpg') no-repeat center center fixed;
+            background-size: cover;
+            
+        }
+        header {
+            text-align: center;
+            background: #db6e6e;
+            color: white;
+            padding: 20px 0;
+
+        } header h1 {
+            font-size: 3em;
+            font-family: 'Georgia', serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        header h3 {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style: none;   
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.8);
+            
+        }
+        
+        section h2 {
+            font-size: 2.5em;
+            color: #333;
+            text-transform: uppercase;
+            border-bottom: 2px solid #6c4747;
+            display: inline-block;
+            margin-bottom: 20px;
+
+        } footer {
+            text-align: center;
+            background-color:rgba(112, 98, 98, 0.6);
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .shooting-star {
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            background: linear-gradient(white, transparent);
+            animation: shooting 3s infinite ease-in-out;
+            z-index: 0;
+        }
+        @keyframes shooting {
+            0% {
+                transform: translate(-100vw, -100vh) rotate(45deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(100vw, 100vh) rotate(45deg);
+                opacity: 0;
+            }
+        }
+        /* Fancy Login Button */
+.login-button a {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.login-button a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+        
+    
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const loginButton = document.querySelector('.login-button a');
+            loginButton.addEventListener('click', () => {
+                alert('Welcome to Hotel Dimond Stone! Please enter your login credentials.');
+            });
+
+            <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Login Button Alert
+        const loginButton = document.querySelector('.login-button a');
+        loginButton.addEventListener('click', () => {
+            alert('Welcome to Hotel Dimond Stone! Please enter your login credentials.');
+        });
+
+        // Shooting Star Animation
+        const starContainer = document.body;
+        for (let i = 0; i < 20; i++) {
+            let star = document.createElement('div');
+            star.className = 'shooting-star';
+            star.style.left = Math.random() * 100 + 'vw';
+            star.style.top = Math.random() * 100 + 'vh';
+            star.style.animationDuration = Math.random() * 3 + 2 + 's';
+            star.style.animationDelay = Math.random() * 2 + 's';
+            starContainer.appendChild(star);
+        }
+    });
+</script>
+
+    </script>
+</head>
+<body>
+    <div class="shooting-star" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+    <div class="shooting-star" style="top: 30%; left: 30%; animation-delay: 1s;"></div>
+    <div class="shooting-star" style="top: 50%; left: 50%; animation-delay: 2s;"></div>
+    <div class="shooting-star" style="top: 70%; left: 70%; animation-delay: 3s;"></div>
+    <header>
+        <h1>Welcome to Hotel Dimond Stone</h1>
+        <h3>Experience Luxury in the Heart of Wagholi, Pune</h3>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Hotel Dimond Stone</h2>
+        <p>Hotel Dimond Stone offers an unparalleled luxurious experience with world-class amenities and top-notch services in Wagholi, Pune. Whether you're here for business or leisure, we ensure a memorable stay.</p>
+    </section>
+    
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Fine Dining Experience</li>
+            <li>Spacious Event Hall for Special Occasions</li>
+        </ul>
+    </section>
+    
+    <section id="rooms">
+        <h2>Rooms & Services</h2>
+        <p>Experience our elegantly designed rooms with premium services tailored to your comfort and satisfaction.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: <a href="tel:9511739633">9511739633</a></p>
+        <p>Location: Wagholi, Pune</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Hotel Dimond Stone. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
